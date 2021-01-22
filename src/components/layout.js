@@ -47,7 +47,7 @@ const Layout = () => {
           <img src={GitIcon} alt="git"/><h3>git</h3>
         </div>
         <div className="skill-items">
-          <img className="tailwind" src={TailwindIcon} alt="tailwindcss"/><h3>tailwind css</h3>
+          <img className="tailwind" src={TailwindIcon} alt="tailwindcss"/><h3>tailwind</h3>
         </div>
         <div className="skill-items">
           <img src={ContentfulIcon} alt="contentful"/><h3>contentful</h3>

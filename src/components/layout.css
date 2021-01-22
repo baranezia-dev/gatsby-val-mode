@@ -19,7 +19,6 @@ h3, h5, p{
   font-family: 'Rajdhani', sans-serif;
 }
 
-
 .header {
   display: flex;
   flex-direction: column;
@@ -231,4 +230,115 @@ h3, h5, p{
   position: absolute;
   left: 44%;
   top: 75%;
+}
+
+@media screen and (max-width: 768px) {
+  * {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .header {
+    padding-left: 0;
+  }
+
+  .vertical-line {
+    height: 180%;
+    max-height: max-content;
+  }
+
+  .horizontal-line {
+    width: 100vw;
+    top: 12%;
+    left: 0;
+    margin: 0;
+  }
+
+  .background-text {
+    max-width: 100vw;
+    width: 100vw;
+    overflow-wrap: break-word;
+    top: 15%;
+  }
+
+  .background-text span {
+    font-size: 10.5rem;
+    width: 100%;
+    line-height: 90%;
+  }
+
+  .information {
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+
+  .title {
+    margin: 0;
+  }
+
+  .title h1 {
+    font-size: 6rem;
+    margin-left: 1rem;
+  }
+
+  .content {
+    position: absolute;
+    top: 43%;
+    max-width: 100%;
+    margin: 3.5rem 1.1rem 0 0.3rem;
+  }
+
+  .content h3 {
+    margin: 0 0 0 1rem;
+  }
+
+  .content p {
+    margin: 8rem 0 0 1rem;
+  }
+
+  .skill-title {
+    bottom: -27%;
+    right: 0;
+    left: 10%;
+  }
+
+  .skill-title h2 {
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .skill-container {
+    bottom: -70%;
+    width: 100vw;
+    height: 320px;
+    padding-right: 0;
+  }
+
+  .skill-items img {
+    display: initial;
+  }
+
+  .border-bottom {
+    width: 30vw;
+    bottom: -71%;
+    right: 0;
+  }
+
+  .horizontal-line-2 {
+    left: 35%;
+    top: 114%;
+  }
+
+  .box-black {
+    left: 92%;
+    top: 113.1%;
+  }
+
+  .box-1 {
+    left: 1.5%;
+  }
+
+  .box-4 {
+    display: none;
+  }
 }
